@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+:root {
+  --background: white;
+  --text-primary: black;
+  
+}
+
+
+[data-theme='dark'] {
+  --background: rgb(33, 33, 33);
+  --text-primary: white;
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app {
+  background-color: var(--background);
+  color: var(--text-primary);
+  transition: all .4s;
+}
+
+
+.button-margin{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.navigation {
+  margin-right: 4rem;
+  margin-left: 4rem;
+  border-radius: 25px;
+  padding: 20px;
+  box-shadow: 1px 2px 2px 1px rgba(0,0,0,0.2);
+  margin-bottom: 2rem;
+}
+
+.navigation h1 {
+  color: var(--text-primary);
+}
+
+.table-data {
+  margin-right: 4rem;
+  margin-left: 4rem;
+  border-radius: 25px;
+  padding: 20px;
+  box-shadow: 1px 2px 2px 1px rgba(0,0,0,0.2);
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+td {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  color: var(--text-primary);
+}
+
+th {
+  color: var(--text-primary);
+}
+
+.footer {
+  margin-right: 4rem;
+  margin-left: 4rem;
+  bottom: 0;
+  position: fixed;
+  width: 91%;
+  padding: 20px;
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+  display: flex;
+  position: relative;
+}
+
+li {
+  list-style-type: none;
+}
+
+.footer-list {
+  padding-left: 0rem;
+}
+
+.footer-margin {
+  margin-right: 3rem
+}
+
+.footer-right {
+  margin-left: 50rem;
+  margin-top: 4rem;
+  align-items: center;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.trending {
+  margin-right: 4rem;
+  margin-left: 4rem;
+  border-radius: 25px;
+  padding: 20px;
+  box-shadow: 1px 2px 2px 1px rgba(0,0,0,0.2);
+  margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.trending-card {
+  border-radius: 25px;
+  padding: 20px;
+  box-shadow: 1px 2px 2px 1px rgba(0,0,0,0.2);
+  margin-right: 3rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  max-width: 1140px;
+  width: 350px;
+}
+
+.trending-name {
+  display: flex;
+  align-items: center;
+}
+
+.trending-name p {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  
+}
+
+
+.trending-data {
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.image-size {
+  width: 1rem;
+}
+
+.positive-percentage {
+  color: green;
+}
+
+.negative-percentage {
+  color: red;
+}
+
+.toggle-button {
+   margin-left: 37%;
+   cursor: pointer;
+   font-size: 1.5rem;
+}
+
+.symbol {
+  align-items: center;
+  margin-right: 0.5rem;
+  margin-top: 0;
+  font-size: 1.5rem;
+  vertical-align: middle;
+}
